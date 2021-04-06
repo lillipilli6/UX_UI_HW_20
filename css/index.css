@@ -9,14 +9,12 @@ a {
     background-color: white !important;
     box-shadow: 5px 5px 20px rgba(55, 80, 71, 0.3);
     height: 80px;
-
 }
 .secondary-nav {
     z-index: 1;
     position: sticky;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: black;
 }
-
 .primary-nav img {
     width: 50px;
     margin-left: 10px;
@@ -25,6 +23,10 @@ a {
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 0;
+}
+nav .navbar-nav a {
+    color: #420141;
+
 }
 /* ---------------------------------------------------HOME PAGE------------------------------------------------------ */
 
@@ -59,7 +61,7 @@ a {
 .lisa_text {
     font-weight: 900;
     font-size: 4rem;
-    color: #330033;
+    color: #420141;
 }
 .lisa_text2 {
     font-weight: 500;
@@ -69,14 +71,14 @@ a {
 button {
     padding: 10px;
     font-size: 1rem;
-    background-color: #330033;
+    background-color: #420141;
     border: 0;
     border-radius: 8px;
     font-weight: 700;
     cursor: pointer;
 }
 button a {
-    color: #ffffff !important;
+    color: #ffffff;
 }
 button a:hover {
     color: #60efde;
@@ -86,9 +88,10 @@ button a:hover {
     font-weight: 900;
     color: #60efde;
 }
-.bg-purple img {
+.bg-purple .card img {
     height: 200px;
     text-align: center;
+    margin: 30px 0px;
 }
 .bg-purple .card {
     border: 5px solid #420141;
@@ -99,6 +102,9 @@ button a:hover {
 }
 .tile {
     background-color: white;
+}
+.purple-text {
+    color: #330033;
 }
 
 /* ---------------------------------------------------SOFTWARE LOGOS----------------------------------------------------- */
@@ -159,14 +165,41 @@ button a:hover {
 }
 /* ---------------------------------------------------BEYOND BLUE CASE STUDY------------------------------------------------------ */
 
+.home h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
 
-h2 {
+
+
+
+.beyond-study h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #2140C9;
+    border-bottom: 1px solid #2140C9;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.beyond-study .mid-blue-bg h2 {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    margin: 40px 0px;
+    
+}
+.beyond-study h3 {
     font-size: 1.6rem;
     font-weight: 200;
     letter-spacing: 0.05rem;
+    margin-top: 20px;
 }
-section .intro {
-    text-align: center;
+.beyond-study h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.beyond-study .intro {
     padding: 30px;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
@@ -187,12 +220,7 @@ section .intro {
 }
 section .beyondLogo {
     width: 200px;
-    margin-bottom: 30px;
-}
-section .intro-text {
-    max-width: 500px;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 30px 0px;
 }
 .section-width-60 {
     width: 60%;
@@ -202,25 +230,15 @@ section .intro-text {
     width: 80%;
     margin: 0 auto;
 }
-section .hero-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    min-width: 500px;
-}
 section .desktop-mobile-img {
     margin-bottom: 0px;
 }
-section .problem {
-    margin: 30px 0px;
-}
-.problem p, .problem h2 {
-    text-align: left;
-}
-section .problem-text {
-    padding: 0px;
-}
+.project-info {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
 
+}
 .inline-block {
     display: inline-block;
 }
@@ -231,14 +249,18 @@ section .insight {
     margin: 30px 0px;
 }
 .section-padding {
-    padding: 3% 0px;
+    padding: 5% 0px;
 }
-section img {
+.beyond-study img {
     width: 100%;
+    margin: 30px 0px;
 }
-.prototype .card {
+.beyond-study #phase-4 .card {
     border: none;
     background-color: transparent;
+}
+.beyond-study .card img {
+    margin: 0px;
 }
 /* ------------------BACKGROUND COLOURS--------------------
 border: 1px solid red;*/
@@ -250,12 +272,9 @@ border: 1px solid red;*/
 }
 .bg-light-grey {
     background-color: rgba(0, 0, 0, 0.05);
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 .bg-light-blue {
     background-color: #E6F1FD;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 /*
