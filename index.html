@@ -1,324 +1,316 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lisa Jones Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
+
+    <title>Lisa Jones Portfolio</title>
 </head>
 
 <body>
-    <!-- navigation menu    -->
     <header>
-        <nav class="navigation sticky flex-row">
-            <div class="LisaLogoBox>">
-                <img class="lisaLogo" id="linkClicked" src="images/Logo.svg">
-                <div class="lisaLogo_text">
-                    <p class="boldText">Lisa Jones</p>
-                    <p>UX/UI Designer.</p>
-                </div>
-            </div>
-            <div class="navText">
-                <ul class="nav-items flex-row">
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <a href="#workContainer">Work <i class="fa fa-caret-down"></i></a>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="beyond.html">Beyond Blue</a>
-                                <a href="#">AIATSIS.gov.au</a>
-                                <a href="#">MarkIt</a>
-                            </div>
-                        </div>
-                    </li>
 
-                    <li class="nav-link">
-                        <a href="#skillsContainer">Skills</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">About</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+<!------------------------------------------------ FIRST NAV ------------------------------------------------>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light primary-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="images/Logo.svg"><span> Lisa
+                        Jones</span><small> UX/UI Designer</small></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Work
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="beyond.html">Beyond Blue</a></li>
+                                <li><a class="dropdown-item" href="#">AIATSIS.gov.au</a></li>
+                                <li><a class="dropdown-item" href="#">MarkIt</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
 
+<!------------------------------------------------ BACKGROUND IMAGE ------------------------------------------------>
 
-    <div class="spacer" id="arrowLink"></div>
-    <main class="main">
-        <div class="bgImageMobile">
-            <section class="sectionHero">
+    <main id="arrowLink">
+        <div class="bgImageMobile lite-green-bg">
+
+<!------------------------------------------------ HERO INTRO ------------------------------------------------>
+
+            <section class="sectionHero section-width-80">
                 <div class="heroContent">
                     <div>
-
                         <div class="heroText">
                             <div class="Lisa_text_topBlock">
                                 <p class="lisa_text">Hi, I'm Lisa</p>
                                 <p class="lisa_text2"> UX/UI Designer in Melbourne, Australia.</p>
                             </div>
                             <div class="Lisa_text_lowBlock">
-                                <p>I am an Innovative and empathetic creative who is passionate about improving the lives of others through design.</p>
-                                <p>I have extensive experience as a senior designer in advertising and the, corporate and education sectors spanning 10 years. Experience has given me a deep understanding of disparate demographics, ages, cultures and diversities and abilities. </p>
-                                <p>My expertise lies in researching and identifying user needs, business objectives, available resources and coordinating the needs of both the user and the business to achieve a balanced optimum solution. I am flexible, accustomed to working in flux and can easily adapt by changing designs, needs and priorities with merging user insights.</p><br>
-                                
-                                <p class="inline-block">Download my </p>
-                                <button class="inline-block">Resume</button>
+                                <p>I am an Innovative and empathetic creative who is passionate about improving the
+                                    lives of others through design.</p>
+                                <p>I have extensive experience as a senior designer in advertising and the, corporate
+                                    and education sectors spanning 10 years. Experience has given me a deep
+                                    understanding of disparate demographics, ages, cultures and diversities and
+                                    abilities. </p>
+                                <p>My expertise lies in researching and identifying user needs, business objectives,
+                                    available resources and coordinating the needs of both the user and the business to
+                                    achieve a balanced optimum solution. I am flexible, accustomed to working in flux
+                                    and can easily adapt by changing designs, needs and priorities with merging user
+                                    insights.</p>
                             </div>
-
-
+                            <button>
+                                <a
+                                    href="https://drive.google.com/file/d/1ehVjtDySqSCtFnNCC8NzWJiOnZ2XN6Bd/view?usp=sharing">Download
+                                    my resume</a></button>
                         </div>
                     </div>
                 </div>
-
-
-
             </section>
         </div>
 
-        <section id="skillsContainer">
-            <div class="mySkills">
-                <h1 class="text_center">My Skills</h1>
-                <div class="mySkills_box">
-                    <div class="flex_item bgWhite">
-                        <div class="imageDiv">
-                            <img class="icon" src="images/icon_ux.svg">
+<!------------------------------------------------ MY SKILLS ------------------------------------------------>
+
+        <section class="section-padding bg-purple">
+            <div class="section-width-80">
+                <h2 class="text-center">My skills</h2>
+                <div class="container-fluid px-0">
+                    <div class="row card-deck">
+                        <div class="card col-lg-4 col-sm-12">
+                            <div class="card-block">
+                                <img src="images/icon_ux.svg">
+                                <h3 class="text-center">User Experience Design</h3>
+                                <p>Employing multiple Qualitative and Quantitative Research
+                                    Practices to deeply understand
+                                    user's needs and objectives through empathy.</p>
+                                <ul>
+                                    <li>Writing user interview plans</li>
+                                    <li>User Experience Interviews</li>
+                                    <li>User Need Identification</li>
+                                    <li>Persona Creation</li>
+                                    <li>User Testing</li>
+                                    <li>Rapid iteration of prototypes</li>
+                                    <li>Heuristic Analysis</li>
+                                    <li>Information Architecture</li>
+                                    <li>User Flow</li>
+                                    <li>Persona Creation</li>
+                                    <li>Journey Mapping</li>
+                                    <li>Storyboards</li>
+                                    <li>Empathy Maps</li>
+                                    <li>Card Sorting</li>
+                                    <li>Affinity Diagrams</li>
+                                    <li>Pluralistic Walkthroughs</li>
+                                </ul>
+                            </div>
                         </div>
-                        <h2 class="text_center">User Experience Design</h2>
-                        <p>Employing multiple Qualitative and Quantitative Research Practices to deeply understand
-                            user's needs and objectives through empathy.</p>
-                        <ul>
-                            <li>Writing user interview plans</li>
-                            <li>User Experience Interviews</li>
-                            <li>User Need Identification</li>
-                            <li>Persona Creation</li>
-                            <li>User Testing</li>
-                            <li>Rapid iteration of prototypes</li>
-                            <li>Heuristic Analysis</li>
-                            <li>Information Architecture</li>
-                            <li>User Flow</li>
-                            <li>Persona Creation</li>
-                            <li>Journey Mapping</li>
-                            <li>Storyboards</li>
-                            <li>Empathy Maps</li>
-                            <li>Card Sorting</li>
-                            <li>Affinity Diagrams</li>
-                            <li>Pluralistic Walkthroughs</li>
-                        </ul>
+                        <div class="card col-lg-4 col-sm-12">
+                            <div class="card-block">
+                                <img src="images/icon_ui.svg">
+                                <h3 class="text-center">User Interface Design</h3>
+                            </div>
 
-                    </div>
-                    <div class="flex_item">
-                        <div class="imageDiv">
-                            <img class="icon" src="images/icon_ui.svg">
+                            <p>Anticipating what users might need to accomplish on an interface, ensuring that elements
+                                and
+                                interactions are elegant, intuitive, easy to understand and easy to use.</p>
+                            <ul>
+                                <li>Responsive Web Design</li>
+                                <li>Sketching</li>
+                                <li>Site Maps</li>
+                                <li>Wireframes</li>
+                                <li>Rapid Prototyping</li>
+                                <li>Testing and Iterating</li>
+                                <li>Information Architecture</li>
+                                <li>High Fidelity Clickable Prototypes</li>
+                                <li>Data Visualization</li>
+                                <li>Micro-Interactions</li>
+                                <li>Transitions</li>
+                                <li>IOS and Android Mobile App iImplementation</li>
+                            </ul>
                         </div>
-                        <h2 class="text_center">User Interface Design</h2>
-                        <p>Anticipating what users might need to accomplish on an interface, ensuring that elements and
-                            interactions are elegant, intuitive, easy to understand and easy to use.</p>
-                        <ul>
-                            <li>Responsive Web Design</li>
-                            <li>Sketching</li>
-                            <li>Site Maps</li>
-                            <li>Wireframes</li>
-                            <li>Rapid Prototyping</li>
-                            <li>Testing and Iterating</li>
-                            <li>Information Architecture</li>
-                            <li>High Fidelity Clickable Prototypes</li>
-                            <li>Data Visualization</li>
-                            <li>Micro-Interactions</li>
-                            <li>Transitions</li>
-                            <li>IOS and Android Mobile App iImplementation</li>
-                        </ul>
 
-                    </div>
-
-                    <div class="flex_item">
-                        <div class="imageDiv">
-                            <img class="icon" src="images/icon_code.svg">
+                        <div class="card col-lg-4 col-sm-12">
+                            <div class="card-block">
+                                <img src="images/icon_ui.svg">
+                                <h3 class="text-center">Web Development</h3>
+                            </div>
+                            <p>I enjoy the challenge of website development. Coding ability really helps when handing
+                                off to
+                                developers as we speack the same language. HTML - Structure and content, CSS - Elegant
+                                design, JavaScript - Interactivity</p>
+                            <ul>
+                                <li>Web Prototyping</li>
+                                <li>Redlining designs into tags</li>
+                                <li>HTML 5</li>
+                                <li>CSS</li>
+                                <li>Media Queries</li>
+                                <li>Responsive Elements</li>
+                                <li>CSS animation</li>
+                                <li>GitHub</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>GitHub</li>
+                                <li>Visual Studio Code</li>
+                            </ul>
                         </div>
-                        <h2 class="text_center">Web Development</h2>
-                        <p>I enjoy the challenge of website development. Coding ability really helps when handing off to
-                            developers as we speack the same language. HTML - Structure and content, CSS - Elegant
-                            design, JavaScript - Interactivity</p>
-                        <ul>
-                            <li>Web Prototyping</li>
-                            <li>Redlining designs into tags</li>
-                            <li>HTML 5</li>
-                            <li>CSS</li>
-                            <li>Media Queries</li>
-                            <li>Responsive Elements</li>
-                            <li>CSS animation</li>
-                            <li>GitHub</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript</li>
-                            <li>jQuery</li>
-                            <li>GitHub</li>
-                            <li>Visual Studio Code</li>
-                        </ul>
                     </div>
-
-
                 </div>
-                <div class="arrowsAlign"><a href="#arrowLink">
-                        <img class="arrowTop" src="images/arrowGreen.svg"></a>
+                <div class="arrow"><a href="#arrowLink">
+                        <img src="images/arrowGreen.svg"></a>
                 </div>
             </div>
-
         </section>
-        <section class="software">
-            <h2 class="text_center">Software</h2>
-            <div class="software_box">
-                <h3 class="text_center">Highly skilled using these tools </h3>
+
+<!------------------------------------------------SOFTWARE ------------------------------------------------>
+
+        <section class="section-padding">
+            <div class="section-width-80 software_box text-center">
+                <h3 class="text-center">Software</h3>
+                <p>Highly skilled using these tools</p>
                 <div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_figma.svg">
-                        <p class="text_center">Figma</p>
+                    <div class="software_logos">
+                        <img src="images/logo_figma.svg">
+                        <p>Figma</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_xd.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_xd.svg">
                         <p>Adobe XD</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_invision.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_sketch.svg">
+                        <p>Sketch</p>
+                    </div>
+                    <div class="software_logos">
+                        <img src="images/logo_invision.svg">
                         <p>InVision</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_miro.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_miro.svg">
                         <p>Miro</p>
                     </div>
-
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_github.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_github.svg">
                         <p>GitHub</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_animate.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_animate.svg">
                         <p>Animate</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_cc.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_cc.svg">
                         <p>Adobe CC</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_ind.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_ind.svg">
                         <p>Indesign</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_ps.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_ps.svg">
                         <p>Photoshop</p>
                     </div>
-                    <div class="logoItems">
-                        <img class="software_logos" src="images/logo_ai.svg">
+                    <div class="software_logos">
+                        <img src="images/logo_ai.svg">
                         <p>Illustrator</p>
                     </div>
                 </div>
-
+            </div>
             </div>
         </section>
 
-        <section id="workContainer">
-            <div class="myWork">
-                <h1 class="text_center">My Work</h1>
-                <div class="myWork_box">
-                    <div class="projectTile">
-                        <div class="projectImage project_1">
-                            <img class="logo" src="images/logo_beyond.png">
+<!------------------------------------------------ MY WORK ------------------------------------------------>
+
+        <section class="section-padding bg-green">
+            <div class="section-width-80">
+                <h1 class="text-center">My Work</h1>
+                <div class="card container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6 col-sm-12 project_1">
+                            <img class="project_logo" src="images/logo_beyond.png">
                         </div>
-                        <div class="projectInfo">
-                            <h2>Beyond Blue</h2>
-                            <h3>Increasing user engagement of widely used clinical form</h3>
+                        <div class="project-text col-lg-4 col-md-6 col-sm-12">
+                            <h3>Beyond Blue</h3>
+                            <p>Increasing user engagement of widely used clinical form</p>
                             <p>Analysis of the user journey and adding warmth to the experience of the K10 Anxiety and
                                 Depression Checklist which has 15,000 visitors per month but has a high dropoff rate.
                             </p>
-                            <button class="projectBtn">View case study</button>
+                            <button><a href="beyond.html">View case study</a></button>
                         </div>
                     </div>
-                    <div class="projectTile">
-                        <div class="projectImage project_2">
-                            <img class="logo" src="images/logo_aiatsis.png">
+                </div>
+                <div class="card container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6 col-sm-12 project_2">
+                            <img class="project_logo" src="images/logo_aiatsis.png">
                         </div>
-                        <div class="projectInfo">
-                            <h2>AIATSIS.gov.au</h2>
-                            <h3>Redesign of Indigenous Government agency website</h3>
+                        <div class="project-text col-lg-4 col-md-6 col-sm-12">
+                            <h3>AIATSIS.gov.au</h3>
+                            <p>Redesign of Indigenous Government agency website</p>
                             <p>Update the information architecture and overall design of this important Indigenous
                                 Government agency site AIATSIS – Australian Institute of Aboriginal and Torres Strait
-                                Islander Studies.</p>
-                            <button class="projectBtn">View case study</button>
+                                Islander Studies.
+                            </p><br>
+                            <button><a href="#">View case study</a></button>
                         </div>
-
-                    </div>
-                    <div class="projectTile">
-                        <div class="projectImage project_3">
-                            <img class="logo" src="images/logo_markit.png">
-                        </div>
-                        <div class="projectInfo">
-                            <h2>MarkIt</h2>
-                            <h3>Product design for an app to help you find local markets</h3>
-                            <p>Help you navigate the confusing plethora of all the local markets including craft, art,
-                                fruit and vege and brick-a-brack.</p>
-                            <button class="projectBtn">View case study</button>
-                        </div>
-
-
                     </div>
                 </div>
-                <h2 class="text_center">View all projects</h2>
-                <div class="arrowsAlign"><a href="#arrowLink">
-                        <img class="arrowTop" src="images/arrowWhite.svg"></a>
+                <div class="card container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6 col-sm-12 project_3">
+                            <img class="project_logo" src="images/logo_markit.png">
+                        </div>
+                        <div class="project-text col-lg-4 col-md-6 col-sm-12">
+                            <h3>MarkIt App</h3>
+                            <p>Product design for an app to help you find local markets</p>
+                            <p>Help you navigate the confusing plethora of all the local markets including craft, art,
+                                fruit and vege and brick-a-brack.
+                            </p><br>
+                            <button><a href="#">View case study</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow"><a href="#arrowLink">
+                        <img src="images/arrowPurple.svg"></a>
                 </div>
             </div>
-
         </section>
     </main>
 
+    <!-- JavaScript -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer id="contact">
-        <ul>
-            <li>about</li>
-            <li>skills</li>
-            <li>work</li>
-            <li>contact</li>
-        </ul>
-    </footer>
-
-
-
-
-
-
-
-    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
 
 </html>
