@@ -26,8 +26,9 @@ a {
 }
 nav .navbar-nav a {
     color: #420141;
-
 }
+
+
 /* ---------------------------------------------------HOME PAGE------------------------------------------------------ */
 
 .lite-green-bg {
@@ -86,25 +87,35 @@ button a:hover {
 .bg-purple h2 {
     font-size: 3rem;
     font-weight: 900;
-    color: #60efde;
+    color:#60efde;
+    margin-bottom: 30px;;
+}
+.bg-green h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color:#420141;
 }
 .bg-purple .card img {
     height: 200px;
-    text-align: center;
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 .bg-purple .card {
     border: 5px solid #420141;
+    padding: 20px;
 }
 .arrow img {
     height: 40px;
     margin: 40px;
+
 }
 .tile {
     background-color: white;
 }
 .purple-text {
     color: #330033;
+}
+.white-text {
+    color: white;
 }
 
 /* ---------------------------------------------------SOFTWARE LOGOS----------------------------------------------------- */
@@ -158,19 +169,21 @@ button a:hover {
 .bg-green .card {
     margin: 30px 0px;
     border: none;
-    box-shadow: 20px 20px 30px rgba(55, 80, 71, 0.3);
+}
+
+.bg-green .project-text h3 {
+    font-weight: 700;
 }
 .project-text {
     padding: 20px 20px 50px 20px;
 }
-/* ---------------------------------------------------BEYOND BLUE CASE STUDY------------------------------------------------------ */
-
-.home h2 {
-    font-size: 3rem;
-    font-weight: 900;
+.leading-text {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
 
-
+/* ---------------------------------------------------BEYOND BLUE CASE STUDY------------------------------------------------------ */
 
 
 .beyond-study h2 {

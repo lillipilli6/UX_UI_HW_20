@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C7FYMZV7VE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C7FYMZV7VE');
+</script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +32,7 @@
 <body>
     <header>
 
-<!------------------------------------------------ FIRST NAV ------------------------------------------------>
+        <!------------------------------------------------ FIRST NAV ------------------------------------------------>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light primary-nav">
             <div class="container-fluid">
@@ -36,24 +46,29 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a href="#work" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Work
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="beyond.html">Beyond Blue</a></li>
-                                <li><a class="dropdown-item" href="https://www.behance.net/gallery/112523725/UXUI-Government-Agency-Redesign-Case-Study">AIATSIS.gov.au</a></li>
-                                <li><a class="dropdown-item" href="https://www.behance.net/gallery/112525413/UX-Design-Case-Study-MarkIt-app">MarkIt</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.behance.net/gallery/112523725/UXUI-Government-Agency-Redesign-Case-Study">AIATSIS.gov.au</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.behance.net/gallery/112525413/UX-Design-Case-Study-MarkIt-app">MarkIt</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                            <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link active" aria-current="page" href="#hero">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link active" aria-current="page"
+                                href="#footer">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -61,14 +76,14 @@
         </nav>
     </header>
 
-<!------------------------------------------------ BACKGROUND IMAGE ------------------------------------------------>
+    <!------------------------------------------------ BACKGROUND IMAGE ------------------------------------------------>
 
     <main id="arrowLink">
         <div class="bgImageMobile lite-green-bg">
 
-<!------------------------------------------------ HERO INTRO ------------------------------------------------>
+            <!------------------------------------------------ HERO INTRO ------------------------------------------------>
 
-            <section class="sectionHero section-width-80">
+            <section class="sectionHero section-width-80" id="hero">
                 <div class="heroContent">
                     <div>
                         <div class="heroText">
@@ -79,7 +94,7 @@
                             <div class="Lisa_text_lowBlock">
                                 <p>I am an Innovative and empathetic creative who is passionate about improving the
                                     lives of others through design.</p>
-                                <p>I have extensive experience as a senior designer in advertising and the, corporate
+                                <p>I have extensive experience as a senior designer in advertising and the corporate
                                     and education sectors spanning 10 years. Experience has given me a deep
                                     understanding of disparate demographics, ages, cultures and diversities and
                                     abilities. </p>
@@ -89,26 +104,31 @@
                                     and can easily adapt by changing designs, needs and priorities with merging user
                                     insights.</p>
                             </div>
+                            <p><a class="purple-text"
+                                href="https://drive.google.com/file/d/1ehVjtDySqSCtFnNCC8NzWJiOnZ2XN6Bd/view?usp=sharing"><strong>Download
+                                my resume</strong></a></p>
                             <button>
+                                
                                 <a
-                                    href="https://drive.google.com/file/d/1ehVjtDySqSCtFnNCC8NzWJiOnZ2XN6Bd/view?usp=sharing">Download
-                                    my resume</a></button>
+                                    href="#work">View my work</a>
+                                </button>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
 
-<!------------------------------------------------ MY SKILLS ------------------------------------------------>
+        <!------------------------------------------------ MY SKILLS ------------------------------------------------>
 
-        <section class="section-padding bg-purple">
+        <section class="section-padding bg-purple" id="skills">
             <div class="section-width-80">
                 <h2 class="text-center">My skills</h2>
                 <div class="container-fluid px-0">
                     <div class="row card-deck">
                         <div class="card col-lg-4 col-sm-12">
                             <div class="card-block">
-                                <img src="images/icon_ux.svg">
+                                <div class="text-center"><img src="images/icon_ux.svg"></div>
+
                                 <h3 class="text-center">User Experience Design</h3>
                                 <p>Employing multiple Qualitative and Quantitative Research
                                     Practices to deeply understand
@@ -135,7 +155,8 @@
                         </div>
                         <div class="card col-lg-4 col-sm-12">
                             <div class="card-block">
-                                <img src="images/icon_ui.svg">
+                                <div class="text-center"><img src="images/icon_ui.svg"></div>
+
                                 <h3 class="text-center">User Interface Design</h3>
                             </div>
 
@@ -160,7 +181,8 @@
 
                         <div class="card col-lg-4 col-sm-12">
                             <div class="card-block">
-                                <img src="images/icon_ui.svg">
+
+                                <div class="text-center"><img src="images/icon_ui.svg"></div>
                                 <h3 class="text-center">Web Development</h3>
                             </div>
                             <p>I enjoy the challenge of website development. Coding ability really helps when handing
@@ -185,19 +207,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="arrow"><a href="#arrowLink">
+                <div class="arrow text-center"><a href="#arrowLink">
                         <img src="images/arrowGreen.svg"></a>
                 </div>
             </div>
         </section>
 
-<!------------------------------------------------SOFTWARE ------------------------------------------------>
+        <!------------------------------------------------SOFTWARE ------------------------------------------------>
 
         <section class="section-padding">
             <div class="section-width-80 software_box text-center">
                 <h3 class="text-center">Software</h3>
                 <p>Highly skilled using these tools</p>
-                <div>
+                <div class="container-fluid row justify-content-center">
+                    <div class="col-8">
                     <div class="software_logos">
                         <img src="images/logo_figma.svg">
                         <p>Figma</p>
@@ -242,16 +265,19 @@
                         <img src="images/logo_ai.svg">
                         <p>Illustrator</p>
                     </div>
+                    </div>
                 </div>
             </div>
             </div>
         </section>
 
-<!------------------------------------------------ MY WORK ------------------------------------------------>
+        <!------------------------------------------------ MY WORK ------------------------------------------------>
 
-        <section class="section-padding bg-green">
+        <section class="section-padding bg-green" id="work">
             <div class="section-width-80">
-                <h1 class="text-center">My Work</h1>
+                <h2 class="text-center">My Work</h2>
+                <div class="py-2"></div>
+
                 <div class="card container-fluid">
                     <div class="row">
                         <div class="col-lg-8 col-md-6 col-sm-12 project_1">
@@ -259,7 +285,7 @@
                         </div>
                         <div class="project-text col-lg-4 col-md-6 col-sm-12">
                             <h3>Beyond Blue</h3>
-                            <p>Increasing user engagement of widely used clinical form</p>
+                            <p class="leading-text">Increasing user engagement of widely used clinical form</p>
                             <p>Analysis of the user journey and adding warmth to the experience of the K10 Anxiety and
                                 Depression Checklist which has 15,000 visitors per month but has a high dropoff rate.
                             </p>
@@ -267,6 +293,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="py-2"></div>
                 <div class="card container-fluid">
                     <div class="row">
                         <div class="col-lg-8 col-md-6 col-sm-12 project_2">
@@ -274,15 +301,19 @@
                         </div>
                         <div class="project-text col-lg-4 col-md-6 col-sm-12">
                             <h3>AIATSIS.gov.au</h3>
-                            <p>Redesign of Indigenous Government agency website</p>
+                            <p class="leading-text">Redesign of Indigenous Government agency website</p>
                             <p>Update the information architecture and overall design of this important Indigenous
                                 Government agency site AIATSIS – Australian Institute of Aboriginal and Torres Strait
                                 Islander Studies.
                             </p><br>
-                            <button><a href="https://www.behance.net/gallery/112523725/UXUI-Government-Agency-Redesign-Case-Study">View case study</a></button>
+                            <button><a
+                                    href="https://www.behance.net/gallery/112523725/UXUI-Government-Agency-Redesign-Case-Study">View
+                                    case study</a></button>
                         </div>
                     </div>
                 </div>
+                <div class="py-2"></div>
+
                 <div class="card container-fluid">
                     <div class="row">
                         <div class="col-lg-8 col-md-6 col-sm-12 project_3">
@@ -290,23 +321,43 @@
                         </div>
                         <div class="project-text col-lg-4 col-md-6 col-sm-12">
                             <h3>MarkIt App</h3>
-                            <p>Product design for an app to help you find local markets</p>
+                            <p class="leading-text">Product design for an app to help you find local markets</p>
                             <p>Help you navigate the confusing plethora of all the local markets including craft, art,
                                 fruit and vege and brick-a-brack.
                             </p><br>
-                            <button><a href="https://www.behance.net/gallery/112525413/UX-Design-Case-Study-MarkIt-app">View case study</a></button>
+                            <button><a
+                                    href="https://www.behance.net/gallery/112525413/UX-Design-Case-Study-MarkIt-app">View
+                                    case study</a></button>
                         </div>
                     </div>
                 </div>
-                <div class="arrow"><a href="#arrowLink">
+                <div class="arrow text-center"><a href="#arrowLink">
                         <img src="images/arrowPurple.svg"></a>
                 </div>
             </div>
-            <h3 class="text-center"><a class="purple-text"
-                href="https://www.behance.net/lisajonesdesigner">View all projects on Behance</a></h2>
+            <h3 class="text-center"><a class="purple-text" href="https://www.behance.net/lisajonesdesigner">View all
+                    projects on Behance</a></h2>
 
         </section>
     </main>
+    <footer id="footer" class="bg-purple">
+        <div class="py-5"></div>
+        <div class="container-fluid text-center py-5">
+            <div class="white-text">
+                <h2>Let's connect</h2>
+                <p><strong>Get in touch for opportunities or just to say hello!</strong></p>
+            </div class="container-fluid row">
+            <div class="software_logos white-text"><a href="https://www.linkedin.com/in/lisa-jones-designer/"><p class="py-2 white-text">LinkedIn</p><img src="images/logo_linkedin.svg">
+                </a>
+            </div>
+
+            <div class="software_logos white-text"><a href="mailto:lisajonesdesigner@gmail.com"><p class="py-2 white-text">Email</p><img src="images/logo_envelope.svg"></a></div>
+            <div class="software_logos white-text"><a href="https://www.behance.net/lisajonesdesigner"><p class="py-2 white-text">Behance</p><img src="images/logo_behance.svg"></a></div>
+
+        </div>
+        <div class="py-5"></div>
+        <div class="py-5"></div>
+    </footer>
 
     <!-- JavaScript -->
 
