@@ -1,6 +1,6 @@
 
 .bg-design {
-
+    background-color: rgb(228, 228, 228);
 }
 .bg-design h2 {
     font-size: 3rem;
@@ -11,5 +11,17 @@
 
 .bg-design .card img {
     width: 100%;
-    margin: 30px 0;
+}
+.bg-design h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bg-design .card {
+    padding: 20px;
+    border: 20px solid rgb(228, 228, 228);
+}
+.section-width-80 {
+    width: 80%;
+    margin: 0 auto;
 }
