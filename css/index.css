@@ -104,6 +104,9 @@ button a:hover {
     margin: 40px;
 
 }
+.section-pad {
+    padding: 10% 10%;
+}
 .tile {
     background-color: white;
 }
